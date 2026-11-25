@@ -1,0 +1,13 @@
+command:
+  - node
+  - app.js
+
+env:
+  - name: UC_CREDENTIAL_NAME
+    value: "sampleservicecredential"
+  # Azure resource/audience for the token (comma-separate multiple values).
+  # Examples: https://management.azure.com/.default (ARM),
+  #           https://storage.azure.com/.default (Storage),
+  #           https://vault.azure.net/.default (Key Vault)
+  - name: UC_AZURE_RESOURCES
+    value: "https://management.azure.com/.default"

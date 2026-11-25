@@ -1,0 +1,13 @@
+{
+  "name": "uc-credential-app",
+  "version": "1.0.0",
+  "description": "Databricks App that gets an access token from a Unity Catalog service credential",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
